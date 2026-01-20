@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Luraaa Resturante | Exquisite Mediterranean Cuisine</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        html { scroll-behavior: smooth; }
+        body { font-family: "Plus Jakarta Sans", sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }section {
+            scroll-margin-top: 80px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#1b0d0d] dark:text-white">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-solid border-[#f3e7e7] dark:border-[#3d2222] bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md">
+<div class="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-4 lg:px-20">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"></path>
+</svg>
+</div>
+<img src="./img/luraa.jpeg" alt="" width="150px" background="white">
+<h1 class="text-xl font-extrabold tracking-tight">Luraaa Resturante</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#home">Home</a>
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#menu">Menu</a>
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#reservations">Reservations</a>
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center text-sm font-bold border border-primary text-primary px-5 py-2.5 rounded-lg hover:bg-primary hover:text-white transition-all" href="#contact">
+                        Contact Us
+                    </a>
+<a class="bg-primary hover:bg-red-700 text-white px-6 py-2.5 rounded-lg text-sm font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-primary/20" href="#reservations">
+                        Book a Table
+                    </a>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="px-6 py-10 lg:px-20" id="home">
+<div class="mx-auto max-w-[1280px]">
+<div class="@container">
+<div class="flex min-h-[600px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-center justify-center p-8 text-center relative overflow-hidden shadow-2xl" data-alt="Gourmet mediterranean food presentation on a dark table" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCK4xA9Tqvu_UVQQkLKZKd1evT7s-dr1xsETrqr5NkhByPDVh90j2Jiu5FTqvyykUh-OsnprtzukKuaFNiEB0w-Og2UTiCjjAWd08PfIK0sZf91wCBU4qjM3kh1QYtRmIGWsloA4b-zrA_N-GE_2HS55qjtRZXB6vZt_SKD9xEEdTnKBA-nJWq3DqI2xy0EDJp16j0JI3IA5JhaYPUCKTyergx0gqhIm7Ck2kzHCEoIkI1CnLulrNOsSYkSV3JTJ4IIHHdTVAM3hnHE");'>
+<div class="relative z-10 max-w-[800px] flex flex-col gap-6">
+<h1 class="text-white text-5xl font-black leading-tight tracking-tight lg:text-7xl">
+                                    Exquisite Flavors, <span class="text-primary">Unforgettable</span> Moments
+                                </h1>
+<p class="text-white/90 text-lg font-medium lg:text-xl max-w-2xl mx-auto">
+                                    Experience the authentic heart of Mediterranean cuisine. Sourced locally, prepared with passion, served with love.
+                                </p>
+<div class="flex flex-wrap justify-center gap-4 mt-4">
+<a class="bg-primary hover:bg-red-700 text-white px-8 py-4 rounded-lg text-base font-bold transition-all shadow-xl shadow-primary/30" href="#menu">
+                                        View Signature Menu
+                                    </a>
+<a class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-lg text-base font-bold transition-all" href="#about">
+                                        Discover Our Story
+                                    </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 py-20 lg:px-20 bg-white dark:bg-[#1a0a0a]" id="menu">
+<div class="mx-auto max-w-[1280px]">
+<div class="text-center mb-12">
+<span class="text-primary font-bold uppercase tracking-widest text-sm">Culinary Excellence</span>
+<h2 class="text-4xl font-black mt-2">Our Signature Menu</h2>
+<div class="w-20 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group flex flex-col gap-4 bg-background-light dark:bg-background-dark p-4 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="overflow-hidden rounded-lg aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Grilled sea bass with fresh lemon and herbs" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDALzEg-8ObQthMety5dS41LWCyBeIaoZSa82WvPYRye3273MyWzb3Czb5woSnszqhTNfpCWtbfXLavWWDVUvVofwwD4WhBo82AvJJx0RlsfwmOPzO6xJyMnIkcF_vzrlr64KAQurac6X-Sw5jLci3vsuC8Oe5XLTOOijJ9w1CUPoSRlalNUCZgZn0mwKbSmqFh4RkSJiPUQpozKQf_YL87OHsQ_0TX4xCf8yFku_hHebg5ioJ6bfXQbnUWJSqAYSlq1XFVrSxaKnKX");'></div>
+</div>
+<div class="flex flex-col">
+<div class="flex justify-between items-start mb-1">
+<h3 class="text-lg font-bold group-hover:text-primary transition-colors">Grilled Sea Bass</h3>
+<span class="text-primary font-extrabold text-lg">$28.00</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Fresh catch of the day, wood-fired with Mediterranean herbs and lemon butter sauce.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 bg-background-light dark:bg-background-dark p-4 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="overflow-hidden rounded-lg aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Pasta dish with truffle cream sauce and mushrooms" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBl66yVHPw7p1a-JHNwK1Q6Cl2IO-4AgLd6M9sxgP8My4QkV1dGtSWSC8C-YMco8uYS5MYQOIugNWyw5RXJcq7mGk-zIgqtW_57fbLxnZITYJL9nPUae9YSDSSyQop3lexcumjug-mDg6_emCu1iUonKtshAF4v7MZYoq5eQhdkiGYpAQtH88BWc0teDFG4dJhU8A4_bHeaw77ndCGToeI4tpK2Kn2tZ_9qq8TnBUTnBzqDGMuIZRlnBiXWdZOuQ7lKDjSSwN6dmxs3");'></div>
+</div>
+<div class="flex flex-col">
+<div class="flex justify-between items-start mb-1">
+<h3 class="text-lg font-bold group-hover:text-primary transition-colors">Truffle Tagliatelle</h3>
+<span class="text-primary font-extrabold text-lg">$24.00</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Handmade pasta tossed in a creamy wild mushroom and black truffle essence.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 bg-background-light dark:bg-background-dark p-4 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="overflow-hidden rounded-lg aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Juicy grilled lamb chops with rosemary" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBuw_PIldADDKmtvXYoOkn9GORU1KFnoNpuHCm1KiasPlb2AQxhhS1zaPFVq7Jhewf31gizMPRe_6T4Cc32HOcYePHap924Da_CmryASVNvpd1aSSgkG0v45vISjjcw2lECubRThBCGhuQqmC0EoJ1Hw6y1Gtdt2z9tonZ30yX7iJ4zl52EZLCvjLXBYwuTlaqj0yu66ER8SaaZ6UJc7EF6R6gNdToU-v1zxjYN_zRa1X3cH1cHgSq8wtQBR__h5RCVPBFz_L2MtCtu");'></div>
+</div>
+<div class="flex flex-col">
+<div class="flex justify-between items-start mb-1">
+<h3 class="text-lg font-bold group-hover:text-primary transition-colors">Lamb Chops</h3>
+<span class="text-primary font-extrabold text-lg">$32.00</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Herb-crusted premium lamb served with mint pea purée and roasted root vegetables.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 bg-background-light dark:bg-background-dark p-4 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="overflow-hidden rounded-lg aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Fresh burrata salad with heirloom tomatoes" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkuU98w6brRg8fSo9FQzL9LjPjakDKXW2SBw_9L1lHvKuRJNaZ2dr0UiGFwClxyHWjXebkyg_0WF64noATxXg9zr_iSTxtonLxlyQCZG1JOlnZO_POLoXeM9Ng3EIxrlqiM-6seCu5myIs62eHn8SiPqIiyOgnpBzs96Iany9b6fm0BNxeiXV9wj1EXGZx2rn1xNEj82V9Uqzkx6wEZ3POj9cD4h3ifi82iSK4AuNGImdPDxD6GH-tGaxMmSrQhO1Ihve31H8meJ9C");'></div>
+</div>
+<div class="flex flex-col">
+<div class="flex justify-between items-start mb-1">
+<h3 class="text-lg font-bold group-hover:text-primary transition-colors">Burrata Salad</h3>
+<span class="text-primary font-extrabold text-lg">$18.00</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Creamy Italian cheese with heritage tomatoes, balsamic glaze, and fresh basil.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 py-20 lg:px-20 bg-background-light mt-20px dark:bg-background-dark" id="about">
+<div class="mx-auto max-w-[1280px]">
+<div class="flex flex-col lg:flex-row gap-16 items-center">
+<div class="lg:w-1/2 flex flex-col gap-6">
+<span class="text-primary font-bold uppercase tracking-widest text-sm">Our Heritage</span>
+<h2 class="text-4xl lg:text-5xl font-black tracking-tight leading-tight">
+                                A Culinary Journey from the <span class="text-primary">Mediterranean</span> to You
+                            </h2>
+<p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                                Luraaa Resturante brings the authentic taste of the Mediterranean to your table. Our story began with a simple passion for fresh, high-quality ingredients and traditional cooking methods.
+                            </p>
+<p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                                Every dish we serve is a tribute to our roots, blending time-honored recipes with modern culinary techniques to create a dining experience that is both familiar and exciting.
+                            </p>
+<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">restaurant</span>
+<span class="font-bold">Fresh Daily Catch</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">workspace_premium</span>
+<span class="font-bold">Award Winning Chefs</span>
+</div>
+</div>
+</div>
+<div class="lg:w-1/2 grid grid-cols-2 gap-4">
+<div class="w-full aspect-[4/5] bg-center bg-cover rounded-2xl shadow-lg transform translate-y-8" data-alt="Interior of a luxury restaurant" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCckKnqSteUbU2mMQIFks9kCXDiUf8HeUNqoiKlWIDPlTaB78MwHJYPe3-YvEZwSkqst8UULYTS8P9OetjKZNkiMqMrVd7rIqQnTg2kecNDlQ0V6RiPrM_rndaj-oKI8EAyantQYcYX-8DpAdOUXP6PonXvttiinmdnUOQQ30SIsODIc2jYyyxUP-CmWl5yZSft5brtSH7HQi2TwGqXMPLx95Do5Sy9ds-rmQDqDZJDuyJ97iZ6PelYiZaWpZDqbl9DlXjecSmzKNSS");'></div>
+<div class="w-full aspect-[4/5] bg-center bg-cover rounded-2xl shadow-lg" data-alt="Chef preparing a gourmet dish" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD8bewTwgrJXNsG1P4WFHcLaksFQkXNVY0xg6GAQJpNEdSetUTUaBBoe9t5fggCV4idh-Eh3u0Hzqt0oFAG9xYt57z446bnVpA3jKTVNQ_4icOeI-0F-XddaWEwOvYvONi9H1PU0w4-1B2EO6hEAB3Ktd1QT7UIlunuX4cb5cfV8qDnTkB7HrnwSpv1PhuVqgpKU5lMH0nLP3jsTw1B7YOEMyq8FBx2BfkS_kipaQFs0t_gXO-9ir-on-R8w2pj0ha9m86vNKflR-kz");'></div>
+</div>
+</div>
+</div>
+<section class="px-6 py-20 lg:px-20 bg-white dark:bg-[#1a0a0a]" id="reservations">
+  <div class="mx-auto max-w-[960px]">
+    <div class="p-8 md:p-12 rounded-3xl shadow-2xl bg-white dark:bg-[#2a1a1a]">
+
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-black mb-4">Book Your Table</h2>
+        <p class="text-gray-500">Secure your spot for an unforgettable dining experience.</p>
+      </div>
+
+      <form class="grid grid-cols-1 md:grid-cols-2 gap-6" onsubmit="event.preventDefault(); sendOrder();">
+
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-bold px-1">Full Name</label>
+          <input id="name" type="text" placeholder="Your name"
+            class="w-full rounded-xl border p-4"/>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-bold px-1">Email Address</label>
+          <input id="email" type="email" placeholder="email@example.com"
+            class="w-full rounded-xl border p-4"/>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-bold px-1">Date</label>
+          <input id="date" type="date"
+            class="w-full rounded-xl border p-4"/>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-bold px-1">Number of Guests</label>
+          <select id="guests" class="w-full rounded-xl border p-4">
+            <option>2 People</option>
+            <option>3 People</option>
+            <option>4 People</option>
+            <option>5+ People</option>
+          </select>
+        </div>
+
+        <div class="md:col-span-2 flex flex-col gap-2">
+          <label class="text-sm font-bold px-1">Special Requests</label>
+          <textarea id="requests" rows="4"
+            placeholder="Let us know about allergies or celebrations..."
+            class="w-full rounded-xl border p-4"></textarea>
+        </div>
+
+        <div class="md:col-span-2 mt-4">
+          <button
+            class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-5 rounded-xl transition-all text-lg">
+            Confirm Reservation
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+function sendOrder() {
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const date = document.getElementById("date").value;
+  const guests = document.getElementById("guests").value;
+  const requests = document.getElementById("requests").value;
+
+  if (!name || !email || !date) {
+    alert("Fadlan buuxi xogta muhiimka ah ❤️");
+    return;
+  }
+
+  const message =
+`New Table Reservation 🍽️
+
+Name: ${name}
+Email: ${email}
+Date: ${date}
+Guests: ${guests}
+Special Requests: ${requests}`;
+
+  const phone = "252613290330"; 
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
+</script>
+
+</section>
+<section class="px-6 pt-20 pb-10 lg:px-20 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-800" id="contact">
+<div class="mx-auto max-w-[1280px]">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"></path>
+</svg>
+</div>
+<h2 class="text-xl font-extrabold tracking-tight">Luraaa</h2>
+</div>
+<p class="text-gray-500 dark:text-gray-400">Redefining the Mediterranean dining experience with elegance and flavor.</p>
+<div class="flex gap-4">
+<a class="size-10 rounded-full bg-white dark:bg-[#3a2a2a] flex items-center justify-center text-primary shadow-sm hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined">share</span>
+</a>
+<a class="size-10 rounded-full bg-white dark:bg-[#3a2a2a] flex items-center justify-center text-primary shadow-sm hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined">public</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h3 class="font-bold text-lg mb-2">Location</h3>
+<div class="flex items-start gap-3 text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span>warta nabada<br/>:calakamiin</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h3 class="font-bold text-lg mb-2">Contact Us</h3>
+<div class="flex items-center gap-3 text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined text-primary">call</span>
+<span>+252 (61)3290330</span>
+</div>
+<div class="flex items-center gap-3 text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span>hello@luraaa.com</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h3 class="font-bold text-lg mb-2">Opening Hours</h3>
+<div class="flex flex-col gap-2 text-sm">
+<div class="flex justify-between border-b border-gray-100 dark:border-gray-800 pb-1">
+<span class="text-gray-500">Mon - Fri</span>
+<span class="font-bold">11:00 - 23:00</span>
+</div>
+<div class="flex justify-between border-b border-gray-100 dark:border-gray-800 pb-1">
+<span class="text-gray-500">Saturday</span>
+<span class="font-bold">10:00 - 00:00</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-500">Sunday</span>
+<span class="font-bold text-primary">Closed</span>
+</div>
+<div class="flex justify-between border-b border-gray-100 dark:border-gray-800 pb-1">
+<span class="text-gray-500">Tuesday</span>
+<span class="font-bold">10:00 - 00:00</span>
+</div>
+<div class="flex justify-between border-b border-gray-100 dark:border-gray-800 pb-1">
+<span class="text-gray-500">wednesday</span>
+<span class="font-bold">10:00 - 00:00</span>
+</div>
+<div class="flex justify-between border-b border-gray-100 dark:border-gray-800 pb-1">
+<span class="text-gray-500">thursday</span>
+<span class="font-bold">10:00 - 00:00</span>
+</div>
+<div class="flex justify-between border-b border-gray-100 dark:border-gray-800 pb-1">
+<span class="text-gray-500">friday</span>
+<span class="font-bold">10:00 - 00:00</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+<p>© 2026 Luraaa Resturante. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+
+</body></html>
